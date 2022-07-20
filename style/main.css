@@ -1,0 +1,53 @@
+body { 
+    margin-right: 5%;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    background-color: #fdf7e7 ;
+    font-family:Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, 'Times New Roman', serif }
+
+h1 { 
+    text-align: center;
+    font-size: 30px;
+    color:rgb(139, 0, 9);
+    font-family: Copperplate, Copperplate Gothic Light, fantasy }
+h2 { 
+    color:rgb(139, 0, 9);
+    font-family:Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, 'Times New Roman', serif }
+h3 { 
+    color:rgb(0, 0, 0);
+    font-family:Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, 'Times New Roman', serif }
+a:link {
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    color: rgb(255, 255, 255) }
+a:visited {
+    color: purple }
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: rgb(139, 0, 9);
+    border-top: thin dotted;
+    border-color:rgb(139, 0, 9) }
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(139, 0, 9);
+  }
