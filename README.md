@@ -1,2 +1,2 @@
 # Mathématiques
-Page personnelle d'enseignement
+Page personnelle de Romain Cessac
