@@ -1,0 +1,120 @@
+\documentclass[activite]{mathsRC}
+\author{Romain Cessac}
+\title{Boucle TANT QUE}
+\date{Année scolaire 2021/2022}
+\numero{}  
+\classe{$2^{\text{nde}}$}
+\duree{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+%%%%%%%%%%%%%
+\section*{Découverte}
+\begin{enumerate}
+\item
+\begin{enumerate}
+\item
+Recopier sur Capytale \capytale{5434-451217} le programme suivant puis l'exécuter :
+
+\begin{python*}
+from random import randint
+nb=randint(1,6)
+print('Un dé cubique équilibré vient d être lancé')
+n=int(input('Devine le résultat : '))
+while n!=nb:
+	n=int(input('Non, recommence : '))
+	
+print('Oui, c est bien ça !')
+\end{python*}
+\item
+Quel est le rôle de ce programme ?
+\end{enumerate}
+
+\item
+\begin{enumerate}
+\item
+Recopier sur Capytale le programme suivant puis l'exécuter :
+
+\begin{python*}
+reponse=str(input('Veux-tu jouer ? Répond par oui ou non.'))
+n=0
+while reponse=='oui':
+    n=n+1
+    print(n)
+    reponse=str(input('Veux-tu encore jouer ?'))
+print('Tu as répondu',n,'fois oui.')
+\end{python*}
+\item
+Quel est le rôle de ce programme ?
+\end{enumerate}
+
+\item
+Quel semble être le rôle de l'instruction Python suivante ?
+
+\begin{python*}
+while <condition>:
+	<instruction>
+\end{python*}
+
+\item
+Compléter l'algorithme suivant de sorte que le programme de la question 1.(a) en soit une implémentation.
+
+\begin{algorithme}
+VARIABLES: n,nb (.........................)
+DÉBUT
+nb = ..................
+AFFICHER '.................................................'
+AFFICHER '.................................................'
+SAISIR ...................
+TANT QUE ........................................ FAIRE
+	AFFICHER '.................................'
+	SAISIR ....................
+FINTANTQUE
+AFFICHER '.................................................'
+FIN
+\end{algorithme}
+\end{enumerate}
+
+\newpage
+\section*{Exercices}
+
+\begin{exercice}[Optimisation d'inégalité]
+Déterminer à l'aide d'un programme Python le plus petit entier naturel $n$ tel que :
+\[
+\np{0.9}^n\leq 10^{-20}.
+\]
+\end{exercice}
+
+\begin{exercice}[Distance Terre-Lune]
+L'épaisseur d'une feuille de papier est de $\np{0.01}$ cm. Cécilia affirme « si l'on pouvait la plier en deux indéfiniment, l'épaisseur de la feuille de papier dépasserait \textit{rapidement} la distance Terre-Lune ».
+
+À l'aide d'un programme Python, que pouvez-vous en dire ?
+\end{exercice}
+
+\begin{exercice}[Résolution algorithmique d'équation]
+On admet que l'équation $x^3-200x^2+400x=792$ admet dans $\mathbb{R}$ une unique solution. Cette solution est entière et comprise entre $0$ et $\np{1000}$.
+\begin{enumerate}
+\item
+Compléter l'algorithme suivant afin de pouvoir déterminer cette solution.
+
+\begin{algorithme}
+VARIABLES: n (.........................)
+DÉBUT
+n = ..................
+TANT QUE ........................................ FAIRE
+	n = ..................
+FINTANTQUE
+AFFICHER '.................................................'
+FIN
+\end{algorithme}
+
+\item
+Implémenter cet algorithme en Python puis donner la solution cherchée.
+\end{enumerate}
+\end{exercice}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

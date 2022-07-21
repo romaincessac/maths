@@ -61,8 +61,55 @@ a:active {
     text-decoration: none;
     color: rgb(139, 0, 9) }
 
+/* Ajout d'icônes après certains liens */
+
 a[href$='.pdf']:after {
     content: "\f1c1";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding-left: 3px;
+    display: inline-block;}
+
+a[href$='.tex']:after {
+    content: "\f1c9";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding-left: 3px;
+    display: inline-block;}
+
+a[href$='.cls']:after {
+    content: "\f1c9";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding-left: 3px;
+    display: inline-block;}
+
+a[href$='.ipynb']:after {
+    content: "\f3e2";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding-left: 3px;
+    display: inline-block;}
+
+a[href$='.py']:after {
+    content: "\f3e2";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding-left: 3px;
+    display: inline-block;}f5ae
+
+a[href$='.ggb']:after {
+    content: "\f5ae";
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
