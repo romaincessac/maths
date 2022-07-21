@@ -34,10 +34,10 @@ h4 {
     font-family:Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, 'Times New Roman', serif }
 
 a:link {
-    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    text-decoration: none;
     color: rgb(139, 0, 9) }
 
-a:visited {
+a:hover {
     color: rgb(60, 165, 12) }
 
 address {
@@ -59,6 +59,7 @@ address {
     display: block;
     color: #fcf8ed;
     text-align: center;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
     padding: 14px 16px;
     text-decoration: none}
   
@@ -71,4 +72,5 @@ footer {
         font-size: smaller;
         background-color: #fcf8ed;
         text-align: center;
-        padding: 10px }
+        padding: 10px;
+        border-top: 0.07em solid #333}
