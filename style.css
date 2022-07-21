@@ -61,19 +61,14 @@ a:active {
     text-decoration: none;
     color: rgb(139, 0, 9) }
 
-a[href$='.pdf']:after{ 
-    background-image: url('icones/pdf_logo.webp') ;
-    background-size: 30px 30px;
-    background-position: -5px 4px;
-    background-repeat: no-repeat;
-    display: list-item;
-    width: 30px; 
-    height: 30px;
-    content:"";
-}
-/* Liste de pdf */
-.pdf {list-style-image: url(icones/pdf_logo.webp);}
-  
+a[href$='.pdf']:after {
+    content: "\f061";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding-left: 30px
+
 /* Style barre navigation */
 .topnav {
     overflow: hidden;
