@@ -2,9 +2,9 @@
     box-sizing: border-box;
   }
 
+/* Structure basique */
 header { 
-    margin-left: 0%
-}
+    margin-left: 0%}
 
 body { 
     margin-right: 5%;
@@ -12,6 +12,13 @@ body {
     color: rgb(0, 0, 0);
     background-color: #fcf8ed ;
     font-family:Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, 'Times New Roman', serif }
+
+footer {
+    font-size: smaller;
+    background-color: #fcf8ed;
+    text-align: center;
+    padding: 10px;
+    border-top: 0.07em solid #333}
 
 h1 { 
     text-align: right;
@@ -33,6 +40,15 @@ h4 {
     color:#333;
     font-family:Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, 'Times New Roman', serif }
 
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: rgb(139, 0, 9);
+    border-top: thin dotted;
+    border-color:rgb(139, 0, 9) }
+
+/* Style des liens */    
 a:link {
     text-decoration: none;
     color: rgb(139, 0, 9) }
@@ -49,20 +65,24 @@ a:active {
     text-decoration: none;
     color: rgb(139, 0, 9) }
 
-address {
-    margin-top: 1em;
-    padding-top: 1em;
-    color: rgb(139, 0, 9);
-    border-top: thin dotted;
-    border-color:rgb(139, 0, 9) }
+a[href$='.pdf']:link { padding-right: 10px}
+
+a[href$='.pdf']:after{ 
+    background-image: url('icones/pdf.png');
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}
+/*.pdf { }
   
-/* Style the top navigation bar */
+/* Style barre navigation */
 .topnav {
     overflow: hidden;
     background-color: #333;
     margin-left: -7%;}
   
-/* Style the topnav links */
 .topnav a {
     float: right;
     display: block;
@@ -72,19 +92,10 @@ address {
     padding: 14px 16px;
     text-decoration: none}
   
-/* Change color on hover */
 .topnav a:hover {
     background-color:rgb(60, 165, 12);
     color: #fcf8ed}
 
-/* Styles pour la rubrique en cours */
 .current {
 	background-color: rgb(139, 0, 9);
 	color: #fcf8ed}
-
-footer {
-        font-size: smaller;
-        background-color: #fcf8ed;
-        text-align: center;
-        padding: 10px;
-        border-top: 0.07em solid #333}
