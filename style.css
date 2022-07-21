@@ -62,13 +62,13 @@ a:active {
     color: rgb(139, 0, 9) }
 
 a[href$='.pdf']:after {
-    content: "\f061";
+    content: "\f1c1";
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
     text-decoration: none;
-    padding-left: 30px;
-    display: list-item;}
+    padding-left: 3px;
+    display: inline-block;}
 
 /* Style barre navigation */
 .topnav {
