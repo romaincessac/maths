@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
-
 /* Structure basique */
 header { 
     margin-left: 0%}
@@ -65,17 +61,18 @@ a:active {
     text-decoration: none;
     color: rgb(139, 0, 9) }
 
-a[href$='.pdf']:link { padding-right: 10px}
-
 a[href$='.pdf']:after{ 
-    background-image: url('icones/pdf.png');
-    background-size: 20px 20px;
-    display: inline-block;
-    width: 20px; 
-    height: 20px;
+    background-image: url('icones/pdf_logo.webp') ;
+    background-size: 30px 30px;
+    background-position: -5px 4px;
+    background-repeat: no-repeat;
+    display: list-item;
+    width: 30px; 
+    height: 30px;
     content:"";
 }
-/*.pdf { }
+/* Liste de pdf */
+.pdf {list-style-image: url(icones/pdf_logo.webp);}
   
 /* Style barre navigation */
 .topnav {
