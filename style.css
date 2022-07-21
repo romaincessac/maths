@@ -37,13 +37,13 @@ a:link {
     text-decoration: none;
     color: rgb(139, 0, 9) }
 
-a:hover {
-    text-decoration: none;
-    color: rgb(60, 165, 12) }
-
 a:visited {
     text-decoration: none;
     color: rgb(139, 0, 9) }
+
+a:hover {
+    text-decoration: none;
+    color: rgb(60, 165, 12) }
 
 a:active {
     text-decoration: none;
@@ -74,8 +74,13 @@ address {
   
 /* Change color on hover */
 .topnav a:hover {
-    background-color:rgb(139, 0, 9);
+    background-color:rgb(60, 165, 12);
     color: #fcf8ed}
+
+/* Styles pour la rubrique en cours */
+.current {
+	background-color: rgb(139, 0, 9);
+	color: #fcf8ed}
 
 footer {
         font-size: smaller;
