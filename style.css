@@ -3,8 +3,8 @@ header {
     margin-left: 0%}
 
 body { 
-    margin-right: 5%;
-    padding-left: 5%;
+    margin-right: 0%;
+    margin-left: 0%;
     color: rgb(0, 0, 0);
     background-color: #fcf8ed ;
     font-family:Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, 'Times New Roman', serif }
@@ -121,10 +121,10 @@ a[href$='.ggb']:after {
 .topnav {
     overflow: hidden;
     background-color: #333;
-    margin-left: -7%;}
+    margin-left: 0%;}
   
 .topnav a {
-    float: right;
+    float: left;
     display: block;
     color: #fcf8ed;
     text-align: center;
@@ -139,3 +139,11 @@ a[href$='.ggb']:after {
 .current {
 	background-color: rgb(139, 0, 9);
 	color: #fcf8ed}
+
+/* Centrer img */
+
+.centrer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
