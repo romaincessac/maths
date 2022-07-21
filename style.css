@@ -38,7 +38,16 @@ a:link {
     color: rgb(139, 0, 9) }
 
 a:hover {
+    text-decoration: none;
     color: rgb(60, 165, 12) }
+
+a:visited {
+    text-decoration: none;
+    color: rgb(139, 0, 9) }
+
+a:active {
+    text-decoration: none;
+    color: rgb(139, 0, 9) }
 
 address {
     margin-top: 1em;
