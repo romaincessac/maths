@@ -67,7 +67,8 @@ a[href$='.pdf']:after {
     font-weight: normal;
     font-style: normal;
     text-decoration: none;
-    padding-left: 30px
+    padding-left: 30px;
+    display: list-item;}
 
 /* Style barre navigation */
 .topnav {
